@@ -13,20 +13,20 @@ We recommend that you install via Anaconda:
 You can also install via the Python package manager `pip`:
 
 1. First, make sure you have installed:
-	* [Python 2.7](https://www.python.org/about/gettingstarted/)
-	* [pip](https://pip.pypa.io/en/stable/installing/)
+    * [Python 2.7](https://www.python.org/about/gettingstarted/)
+    * [pip](https://pip.pypa.io/en/stable/installing/)
 
 1. Make sure you have upgraded `pip` to the latest version:
-	
-	```
-	pip install --user --upgrade pip
-	```
+    
+    ```
+    pip install --user --upgrade pip
+    ```
 
-2. Intall Jupyter notebook:
-	
-	```
-	pip install --user --upgrade jupyter
-	```
+2. Install Jupyter notebook:
+    
+    ```
+    pip install --user --upgrade jupyter
+    ```
 
 _Note that if you have `sudo` permissions, you can install system-wide by prepending `sudo` to the above commands, and removing `--user`; sometimes this will resolve certain installation issues._
 
@@ -49,7 +49,7 @@ pip install --user --upgrade ipython-sql
 ## Step 3: Getting Started!
 
 ### Getting the latest course materials
-You can always access the latest course materials on the course website, however you can also get them all at once, and keep them synced, by using git.  To get started with this method, run:
+You can always access the latest course materials on the course website, however, you can also get them all at once, and keep them synced, by using git.  To get started with this method, run:
 
 ```
 git clone https://github.com/stanford-futuredata/cs145-2017.git
@@ -62,7 +62,7 @@ git pull
 ```
 
 ### Running stuff
-In the directory where the relevant course materials are (if you followed the above step, this will be in the `cs145-2017` directory), run:
+In the directory where the relevant course materials are (if you followed the above step, this would be in the `cs145-2017` directory), run:
 
 ```
 jupyter notebook
@@ -70,7 +70,7 @@ jupyter notebook
 
 # Troubleshooting Guide
  
-If you're having trouble installing IPython notebook, look through the following fixes & try ones that seem potentially relevant.  If none of the below work then post your issue on Piazza!
+If you're having trouble installing IPython notebook, look through the following fixes & try ones that seem potentially relevant.  If none of the below works then post your issue on Piazza!
  
 Remember, we don't "officially" support Windows, but the CA staff will do their best to help with Windows install issues!
 
@@ -120,4 +120,4 @@ export PATH=${PATH}:~/Library/Python/2.XXX/bin:~/bin
 
 Then after running that, you should be able to execute the command `which jupyter` and have it show you where jupyter is located.
 
-**Note: you need to quit and restart your terminal in order for these changes to take effect!**
+**Note: you need to quit and restart your terminal for these changes to take effect!**
